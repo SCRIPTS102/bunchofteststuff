@@ -1,0 +1,33 @@
+local placeId = game.PlaceId
+local gameId = tonumber(string.match(tostring(placeId), "%d+"))
+if gameId then
+  print("hub loaded, want any more scripts just send me game id and script and il add")
+    if gameId == 11156779721 then
+  	pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+  elseif gameId == 6872265039 then
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  elseif gameId == 12851888521 then
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0punch', true))()
+  elseif gameId == 4490140733 then
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/mr.lua"))()
+  elseif gameId == 10851599 then
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+  elseif gameId == 537413528 then
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+  elseif gameId == 13864661000 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+  elseif gameId == 606849621 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+    print("if script does not work dont get mad at me")
+  elseif gameId == 14787369036 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yBloodz/Free-scripts/main/Weird%20Strict%20Dad"))()
+    print("if script does not work dont get mad at me")
+  elseif gameId == 13772394625 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua'))()
+  else
+  	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("loaded iy, game not supported.")
+  end
+else
+  print("hub failed")
+end
