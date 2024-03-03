@@ -1,3 +1,5 @@
+print("loading...")
+
 local placeId = game.PlaceId
 local gameId = tonumber(string.match(tostring(placeId), "%d+"))
 if gameId then
