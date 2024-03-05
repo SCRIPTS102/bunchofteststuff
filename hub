@@ -1,4 +1,4 @@
-if script_key == bbcboy then
+
     print("loading...")
   local placeId = game.PlaceId
   local gameId = tonumber(string.match(tostring(placeId), "%d+"))
@@ -33,4 +33,3 @@ if script_key == bbcboy then
   else
     print("hub failed")
   end
-end
