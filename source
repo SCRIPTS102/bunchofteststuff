@@ -149,7 +149,7 @@ end
 
 local uip = game:GetService("UserInputService")
 uip.InputBegan:Connect(function(key)
-    if key.KeyCode == Enum.KeyCode.RightShift then
+    if key.KeyCode == Enum.KeyCode.LeftControl then
         game.CoreGui[LibName].Enabled = not game.CoreGui[LibName].Enabled
     end
 end)
